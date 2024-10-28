@@ -33,7 +33,7 @@ a{
 }
 section{
     height: 100vh;
-    scroll-snap-align: unset;
+    scroll-snap-align: center;
 }
 
 @mixin mobile{
