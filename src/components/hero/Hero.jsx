@@ -23,6 +23,7 @@ const textVariants = {
     },
   },
 };
+
 const sliderVariants = {
   initial: {
     x: 0,
