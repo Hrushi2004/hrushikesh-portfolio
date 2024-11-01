@@ -14,18 +14,6 @@ const items = [
         title: "React",
         video: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your video URL
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ea ipsam ipsum molestiae similique assumenda facilis non quod eveniet autem quo nihil qui, dolor quia beatae quasi aliquid ipsa expedita!",
-    },
-    {
-        id: 3,
-        title: "React",
-        video: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your video URL
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ea ipsam ipsum molestiae similique assumenda facilis non quod eveniet autem quo nihil qui, dolor quia beatae quasi aliquid ipsa expedita!",
-    },
-    {
-        id: 4,
-        title: "React",
-        video: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your video URL
-        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ea ipsam ipsum molestiae similique assumenda facilis non quod eveniet autem quo nihil qui, dolor quia beatae quasi aliquid ipsa expedita!",
     }
 ];
 
@@ -62,7 +50,7 @@ const Portfolio = () => {
     return (
         <div className='portfolio' ref={ref}>
             <div className="progress">
-                <h1>Featured Works</h1>
+                <h1>What I Did...?</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>
             </div>
             {items.map((item) => (

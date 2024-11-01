@@ -22,11 +22,10 @@ const itemVariants = {
 
 const Links = () => {
     const items = [
-        "Homepage",
-        "Services",
-        "Portfolio",
-        "Contact",
-        "About"
+        "Home",
+        "Skills",
+        "Projects",
+        "Contact"
     ];
   return (
     <motion.div className="links" variants={variants}>

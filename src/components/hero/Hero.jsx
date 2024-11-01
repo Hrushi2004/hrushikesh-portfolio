@@ -45,11 +45,11 @@ const Hero = () => {
         <div className='hero'>
             <div className='wrapper'>
                 <motion.div className='textContainer' variants={textVariants} initial='initial' animate='animate'>
-                    <motion.h2 variants={textVariants}>Hrushikesh Kantamaneni</motion.h2>
-                    <motion.h1 variants={textVariants}>Developer</motion.h1>
+                    <motion.h1 variants={textVariants}>Hrushikesh Kantamaneni</motion.h1>
+                    <motion.h2 variants={textVariants}>Game <b style={{ color: 'orange' }}>Developer <br/> Web</b> Developer</motion.h2>
                     <motion.div variants={textVariants} className='buttons'>
-                        <motion.button variants={textVariants}>See the Latest Works</motion.button>
-                        <motion.button variants={textVariants}>Contact Me</motion.button>
+                        <motion.a href="#Projects" variants={textVariants}>See the Latest Works</motion.a>
+                        <motion.a href="#Contact" variants={textVariants}>Contact Me</motion.a>
                     </motion.div>
                     <motion.img
                         src={scroll}
@@ -60,7 +60,7 @@ const Hero = () => {
                 </motion.div>
             </div>
             <motion.div className='slidingTextContainer' variants={sliderVariants} initial='initial' animate='animate'>
-                Web Developer 3D Developer
+               Game Developer Web Developer 
             </motion.div>
             <div className='imageContainer'>
                 <img src={hero} alt='hero' />

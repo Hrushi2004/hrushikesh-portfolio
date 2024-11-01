@@ -1,7 +1,6 @@
 import './services.scss';
 import {motion, useInView} from 'framer-motion';
 import { useRef } from 'react'; // Missing import
-import people from '../../assets/people.webp'
 
 const variants = {
   initial: {
@@ -34,65 +33,46 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow <br /> and move forward
+        What I Can Do...?
         </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src={people} alt="people" />
+          {/* <img src={people} alt="people" /> */}
           <h1>
-            <motion.b whileHover={{ color: 'orange' }}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: 'orange' }}>My Skills...!</motion.b> 
           </h1>
-        </div>
-        <div className="title">
-          <h1>
-            <motion.b whileHover={{ color: 'orange' }}>For Your</motion.b> Business
-          </h1>
-          <button>What We Do?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
         <motion.div
-          className="box"
-          whileHover={{ backgroundColor: 'lightgray', color: 'black' }} // Corrected hover effect
-        >
-          <h2>Skills</h2>
+          className="box" >
+          <h2>Game Engines</h2>
+         
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ipsa libero eius ommodi iure, aspernatur voluptate aut dolorum dolorem inventore? Incidunt harum perspiciatis veniam ad consectetur.
+          I’m proficient in <b style={{ color: 'orange' }}>Unity</b> and <b style={{ color: 'orange' }}>Godot</b>, crafting engaging 2D and 3D games with smooth mechanics and immersive design.
+           Additionally, I have a foundational grasp of <b style={{ color: 'orange' }}>Unreal Engine</b>, with very few basics.
           </p>
-          <button>Go</button>
+          
+        </motion.div>
+        <motion.div className="box" >
+          <h2>UI/UX Design Tools</h2>
+         
+          <p>
+          I am passionate about creating attractive and impactful designs that enhance user experience. With a solid knowledge of <b style={{ color: 'orange' }}>Figma</b>, I enjoy translating ideas into visually appealing interfaces, focusing on functionality.    
+          </p>
+          
         </motion.div>
         <motion.div
           className="box"
-          whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
         >
-          <h2>Skills</h2>
+          <h2>Web Development</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ipsa libero eius ommodi iure, aspernatur voluptate aut dolorum dolorem inventore? Incidunt harum perspiciatis veniam ad consectetur.
+          I am knowledgeable in frameworks like <b style={{ color: 'orange' }}>Spring Boot</b> for backend development and <b style={{ color: 'orange' }}>React</b> for front-end development. This enables me to create full-stack web applications that are both dynamic and user-friendly.
           </p>
-          <button>Go</button>
         </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
-        >
-          <h2>Skills</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ipsa libero eius ommodi iure, aspernatur voluptate aut dolorum dolorem inventore? Incidunt harum perspiciatis veniam ad consectetur.
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ backgroundColor: 'lightgray', color: 'black' }}
-        >
-          <h2>Skills</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ipsa libero eius ommodi iure, aspernatur voluptate aut dolorum dolorem inventore? Incidunt harum perspiciatis veniam ad consectetur.
-          </p>
-          <button>Go</button>
-        </motion.div>
+        
       </motion.div>
     </motion.div>
   );
