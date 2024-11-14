@@ -1,8 +1,8 @@
 import './portfolio.scss';
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import { useRef } from 'react';
-import GoDot from '../../assets/GoDot.mp4';
-import Unity from '../../assets/Unity.mp4';
+import GoDot from '../../assets/Godot.mp4';
+import Unity from '../../assets/unity.mp4';
 const items = [
     {
         id: 1,
