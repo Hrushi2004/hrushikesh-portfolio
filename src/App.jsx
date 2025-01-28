@@ -7,7 +7,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 import Test from "./Test";
 import Parallax from './components/parallax/Parallax';
-import AboutMe from "./components/about/aboutme";
+import AboutMe from "./components/about/AboutMe";
 
 
 const App = () => {
