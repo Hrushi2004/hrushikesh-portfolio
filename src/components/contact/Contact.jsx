@@ -24,7 +24,7 @@ const Contact = () => {
             <motion.h1 variants={variants}>Lets work together</motion.h1>
             <motion.div variants={variants} className="item">
                 <h2>Mail</h2>
-                <span>hrushikesh@gmail.com</span>
+                <span>hrushikesh2004.k@gmail.com</span>
             </motion.div>
             <motion.div variants={variants} className="item">
                 <h2>Address</h2>
@@ -32,7 +32,7 @@ const Contact = () => {
             </motion.div>
             <motion.div variants={variants} className="item">
                 <h2>Phone</h2>
-                <span>+9177020xxxxx</span>
+                <span>+917702072637</span>
             </motion.div>
         </motion.div>
         <div className="formContainer">

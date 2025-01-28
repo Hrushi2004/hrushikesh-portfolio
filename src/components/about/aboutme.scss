@@ -1,0 +1,254 @@
+.aboutMe {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+    .contentWrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+      max-width: 1500px;
+      margin-top: 50px;
+  
+      .textContainer {
+        text-align: center;
+  
+        p {
+          margin-top: 20px;
+          margin-left: 100px;
+          max-width: 1000px;
+          font-size: 18px;
+          color: gray;
+        }
+      }
+  
+      .contactInfo {
+        h2 {
+          margin-right: 800px;
+          font-size: 24px;
+          color: orange;
+        }
+        p {
+          font-size: 18px;
+          color: gray;
+        }
+      }
+  
+      .profiles {
+        h2 {
+          margin-right: 100px;
+          font-size: 28px;
+          color: white;
+          margin-top: -20px;
+        }
+  
+        .icons {
+          margin-top: 150px;
+          margin-right: 930px;
+          display: flex;
+          gap: 20px;
+  
+          a {
+            text-decoration: none;
+            transition: transform 0.2s;
+            &:hover {
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+  
+    .titleContainer {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-right: 700px;
+      padding-top: 10px;
+  
+      .title {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+  
+        h1 {
+          font-size: 96px;
+          font-weight: 100;
+        }
+  
+        button {
+          width: 300px;
+          height: 100px;
+          border-radius: 50px;
+          background-color: orange;
+          border: none;
+          font-size: 24px;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    .slidingTextContainer {
+      position: absolute;
+      font-size: 20vh;
+      bottom: -180px;
+      white-space: nowrap;
+      color: #ffffff09;
+      width: 50%;
+      font-weight: bold;
+    }
+  
+    // Responsive styles
+    @media (max-width: 768px) {
+      padding: 10px;
+  
+      .contentWrapper {
+        gap: 30px;
+        margin-top: 30px;
+  
+        .textContainer {
+          p {
+            margin-left: 20px;
+            max-width: 90%;
+            font-size: 16px;
+          }
+        }
+  
+        .contactInfo {
+          h2 {
+            margin-right: 0;
+            font-size: 20px;
+            text-align: center;
+          }
+          p {
+            text-align: center;
+            font-size: 16px;
+          }
+        }
+  
+        .profiles {
+          h2 {
+            margin-right: 0;
+            text-align: center;
+            font-size: 24px;
+            margin-top: 0;
+          }
+  
+          .icons {
+            margin: 20px auto 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+  
+            a {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+  
+      .titleContainer {
+        padding-right: 0;
+        .title {
+          flex-direction: column;
+          gap: 20px;
+  
+          h1 {
+            font-size: 48px;
+          }
+  
+          button {
+            width: 80%;
+            height: 60px;
+            font-size: 18px;
+          }
+        }
+      }
+  
+      .slidingTextContainer {
+        font-size: 10vh;
+        bottom: -100px;
+        width: 90%;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      .contentWrapper {
+        gap: 20px;
+  
+        .textContainer {
+          p {
+            margin-left: 10px;
+            font-size: 14px;
+          }
+        }
+  
+        .contactInfo {
+          h2 {
+            font-size: 18px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+  
+        .profiles {
+          h2 {
+            font-size: 20px;
+          }
+  
+          .icons {
+            gap: 10px;
+  
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+  
+      .titleContainer {
+        .title {
+          h1 {
+            font-size: 36px;
+          }
+  
+          button {
+            width: 90%;
+            height: 50px;
+            font-size: 16px;
+          }
+        }
+      }
+  
+      .slidingTextContainer {
+        font-size: 8vh;
+        bottom: -80px;
+      }
+    }
+    .downloadButton {
+        
+        padding: 10px 20px;
+        background-color: orange;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-left: 1000px;
+        margin-top: -600px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease;
+      
+        &:hover {
+          background-color: darkorange;
+        }
+      }
+      
+  }
+  
