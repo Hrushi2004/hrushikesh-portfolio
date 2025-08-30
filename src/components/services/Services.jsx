@@ -61,7 +61,7 @@ const Services = () => {
     <h2>UI/UX Design Tools</h2>
     <br></br>
     <p>
-      I am passionate about creating attractive and impactful designs that enhance user experience. With a solid knowledge of <b style={{ color: 'orange' }}>Figma</b>, I enjoy translating ideas into visually appealing interfaces, focusing on functionality.
+      I am passionate about creating attractive and impactful designs that enhance user experience. With a solid knowledge of <b style={{ color: 'orange' }}>Figma</b> and basic knowldge of <b style={{ color: 'orange' }}>ProtoPie</b> and <b style={{ color: 'orange' }}>Adobe Illustrator</b>, I enjoy translating ideas into visually appealing interfaces, focusing on functionality.
     </p>
     <br></br>
     <div className="tools">
