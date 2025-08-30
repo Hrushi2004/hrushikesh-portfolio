@@ -4,7 +4,7 @@ import './aboutme.scss';
 import {motion} from 'framer-motion';
 import { FaGithub, FaLinkedin, FaItchIo } from 'react-icons/fa';
 import { SiFigma } from 'react-icons/si';
-import resumePdf from '../../assets/Kantamneni_Hrushikesh_Resume.pdf';
+import resumePdf from '../../assets/Kantamneni Hrushikesh_Resume.pdf';
 
 const AboutMe = () => {
     const variants = {
