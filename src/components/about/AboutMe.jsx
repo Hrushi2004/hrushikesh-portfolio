@@ -50,19 +50,10 @@ const AboutMe = () => {
         </div>
       </motion.div>
           <p>
-          I am a Computer Science Engineering student at KL University, with a specialization in Game development and UX design. 
-          I have had a strong interest in creating immersive environments, and investigating the technical and artistic facets of 
-          game creation throughout my academic career. I have extensive experience with Unity, Godot, and Core Engine for game 
-          development, blending my skills in programming with a strong understanding of game design principles to create seamless 
-          player experiences.
+       I am a Computer Science Engineering student at KL University with a specialization in UX Design and Game Development. My primary focus has been on crafting intuitive, user-centric digital experiences, supported by a strong foundation in design thinking and usability principles. I have hands-on experience with design tools such as Figma and Adobe Illustrator, where I translate ideas into wireframes, prototypes, and high-fidelity interfaces.
           </p>
-          <p>
-          I have a strong foundation in UX design, with hands-on experience using tools like Figma to bring creative concepts to life. 
-          One of my key projects was designing an application on the Zudio brand, where I focused on creating an intuitive and visually 
-          appealing interface that aligns with the brands identity. Additionally, I designed a quiz game for C programming, using Figma
-           to develop a demo video that showcased the user interface and gameplay flow. I also contributed to designing the website for 
-           my college club, where I helped enhance the user experience by ensuring that the site was easy to navigate, visually cohesive,
-            and aligned with modern web design standards.
+            <p>
+One of my key projects was a UX case study on the Zudio brand, where I researched the brand identity and designed a conceptual mobile application with an intuitive and visually engaging interface. I also designed a quiz game interface for C programming learners, developing a demo that highlighted clear interaction flows and engaging visual design. Additionally, I contributed to the website redesign for my college club, enhancing the overall user experience by improving navigation, consistency, and responsiveness.
           </p>
         </div>
        
