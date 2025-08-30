@@ -50,7 +50,7 @@ const AboutMe = () => {
         </div>
       </motion.div>
           <p>
-       I am a Computer Science Engineering student at KL University with a specialization in UX Design and Game Development. My primary focus has been on crafting intuitive, user-centric digital experiences, supported by a strong foundation in design thinking and usability principles. I have hands-on experience with design tools such as Figma and Adobe Illustrator, where I translate ideas into wireframes, prototypes, and high-fidelity interfaces.
+       I am a Computer Science Engineering student at KL University with a specialization in Game Development and UX Design. My primary focus has been on crafting intuitive, user-centric digital experiences, supported by a strong foundation in design thinking and usability principles. I have hands-on experience with design tools such as Figma and Adobe Illustrator, where I translate ideas into wireframes, prototypes, and high-fidelity interfaces.
           </p>
             <p>
 One of my key projects was a UX case study on the Zudio brand, where I researched the brand identity and designed a conceptual mobile application with an intuitive and visually engaging interface. I also designed a quiz game interface for C programming learners, developing a demo that highlighted clear interaction flows and engaging visual design. Additionally, I contributed to the website redesign for my college club, enhancing the overall user experience by improving navigation, consistency, and responsiveness.
